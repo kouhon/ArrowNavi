@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:gravity="center">
+
+        <TextView
+            android:id="@+id/DstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="目的地は？"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/DstEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:hint="目的地の名前を入力してにゃ"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/MicBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_navi_voice_btn"
+                android:onClick="clickMicBtn"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:id="@+id/SearchBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_navi_search_btn"
+                android:onClick="clickAddressSearch"
+                android:layout_marginLeft="5dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

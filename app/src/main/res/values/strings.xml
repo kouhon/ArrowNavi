@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">にゃんNAVI</string>
+    <string name="dialog_sorry_title">ごめんなさいにゃ</string>
+    <string name="sensor_location_negative_message">ご主人が使っている電話じゃ僕は使えないにゃ。ごめんにゃ。</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="mic_dialog_title">行き先を言ってにゃ</string>
+    <string name="destination_not_input_title">目的地が入力されないですにゃ</string>
+    <string name="destination_not_input_message">目的地を入力してくださいにゃ</string>
+    <string name="destination_confirmation_message">ここに向っていいですかにゃ？</string>
+    <string name="destination_not_found_title">目的地が見つかりませんでしたにゃ</string>
+    <string name="destination_not_found_message">目的地が合ってるか確認してくださいにゃ</string>
+    <string name="gps_setting_negative_notice_title">確認してにゃ</string>
+    <string name="gps_setting_negative_notice_message">今のご主人様の電話の「GPS」っていうのが使えない設定になってるかもにゃ。確認してから使ってくださいにゃ。</string>
+    <string name="gps_info_retrieving_message">ご主人様のいる場所を調べてるにゃ...</string>
+    <string name="distance_is_m">dst まであと 0 mくらいにゃ</string>
+    <string name="distance_is_km">dst まであと 0 kmくらいにゃ</string>
+    <string name="destination_is_close_message">そろそろ目的地じゃないかにゃ？</string>
+    <string name="progress_title">少々お待ち下さいにゃ</string>
+    <string name="progress_message">検索中</string>
+</resources>
